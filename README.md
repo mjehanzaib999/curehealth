@@ -21,6 +21,15 @@ Cure Health connects the whole care loop in one platform, with **six role-scoped
 
 46 API endpoints and 24 role-scoped screens across patient, provider, pharmacy, insurer, admin, and call experiences.
 
+## 🤖 AI features — try them live
+Powered by Claude (via OpenRouter). Use the **persona quick-login buttons** on the sign-in page to reach each portal:
+
+- **AI Care Navigator** *(patient)* — describe symptoms and AI triages urgency, flags red-flags, recommends a specialty, and builds a visit-prep checklist — then books for you. Try *"chest tightness and shortness of breath climbing stairs for a week."*
+- **Clinical Care-Plan Generator** *(provider)* — drafts an evidence-informed, editable care plan (problems, goals, interventions, follow-up) from a patient's chart.
+- Plus **AI Triage** & an **AI Assistant** (patient), **scribe / visit-summary** (provider), **demand forecast** (pharmacy), and **fraud scan** (insurer).
+
+> Look for the **✨ AI** tags in the portal nav and the "💡 how to use" note on each AI screen.
+
 ## Tech
 - **Backend:** FastAPI, async SQLAlchemy, Alembic, PostgreSQL, WebSocket signaling
 - **Frontend:** Next.js 16 + React 19 + TypeScript
