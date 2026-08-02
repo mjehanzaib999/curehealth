@@ -3,8 +3,7 @@
 **AI-powered digital health platform unifying patients, providers, pharmacies, insurers, and financing.**
 
 ### 🔗 [Live demo → curehealth.kognio.ai](https://curehealth.kognio.ai)
-Demo logins (all password **`Demo123!`**):
-`admin@curehealth.dev` · `dr.arta@curehealth.dev` (provider) · `blerim@curehealth.dev` (patient) · `pharma.aria@curehealth.dev` (pharmacy) · `insurer.sigal@curehealth.dev` (insurer)
+Demo login: **`demo@kognio.ai`** / **`Demo1234!`** (admin — sees all six role dashboards)
 
 ---
 
