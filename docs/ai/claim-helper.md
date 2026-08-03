@@ -18,4 +18,4 @@ The pasted receipt or invoice text is sent to Claude in JSON mode with a strict 
 Use the **Patient** quick-login button (password `Demo1234!`), open the claim helper, and paste a receipt like *"Clinic Vita — consultation 20 Feb 2026 — total 45.00 EUR."*
 
 ## Under the hood
-`POST /ai/extract-claim` · JSON-mode Claude Sonnet 4.6 via OpenRouter · server-side field validation and cents coercion · audited without document content.
+`POST /ai/extract-claim` · JSON-mode Claude Sonnet 4.5 via OpenRouter · server-side field validation and cents coercion · audited without document content.

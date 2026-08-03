@@ -17,4 +17,4 @@ The order is scoped to the calling pharmacy's organization. The prescription fac
 Use the **Pharmacy** quick-login button (`pharma.aria@curehealth.dev`, password `Demo1234!`), open an order, and generate a label in English or Albanian.
 
 ## Under the hood
-`POST /ai/label` · order scoped to the pharmacy org · grounds on the dispensed `MedicationRequest` + `PharmacyOrder.fulfillment` · language `en`/`sq` · Claude Sonnet 4.6 via OpenRouter · audited without PHI.
+`POST /ai/label` · order scoped to the pharmacy org · grounds on the dispensed `MedicationRequest` + `PharmacyOrder.fulfillment` · language `en`/`sq` · Claude Sonnet 4.5 via OpenRouter · audited without PHI.

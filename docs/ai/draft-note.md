@@ -17,4 +17,4 @@ The provider must own the appointment being documented. Their shorthand bullets 
 Use the **Provider** quick-login button (`dr.arta@curehealth.dev`, password `Demo1234!`), open one of your appointments, and draft a note from bullets like *"52M, cough 5 days, no fever, chest clear, advised rest and fluids."*
 
 ## Under the hood
-`POST /ai/draft-note` · scoped to the provider's own appointment · Claude Sonnet 4.6 via OpenRouter · audited without note content.
+`POST /ai/draft-note` · scoped to the provider's own appointment · Claude Sonnet 4.5 via OpenRouter · audited without note content.

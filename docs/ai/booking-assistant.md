@@ -17,4 +17,4 @@ This is a genuine tool-calling agent. Claude is given three functions — `list_
 Use the **Patient** quick-login button (password `Demo1234!`), open the booking assistant, and try *"I need a cardiology appointment sometime next week."*
 
 ## Under the hood
-`POST /ai/booking-assistant` · tool-calling loop over `list_providers` / `get_slots` / `book_appointment` · reuses `perform_booking` · Claude Sonnet 4.6 via OpenRouter · audited without message content.
+`POST /ai/booking-assistant` · tool-calling loop over `list_providers` / `get_slots` / `book_appointment` · reuses `perform_booking` · Claude Sonnet 4.5 via OpenRouter · audited without message content.

@@ -17,4 +17,4 @@ Before each reply, the server loads the patient's own active/sent/dispensed pres
 Use the **Patient** quick-login button (password `Demo1234!`), open the adherence coach, and try *"I keep forgetting my evening dose — any tips?"*
 
 ## Under the hood
-`POST /ai/adherence-coach` · grounds on the patient's `MedicationRequest` records (active/sent/dispensed) · Claude Sonnet 4.6 via OpenRouter · audited without message content.
+`POST /ai/adherence-coach` · grounds on the patient's `MedicationRequest` records (active/sent/dispensed) · Claude Sonnet 4.5 via OpenRouter · audited without message content.

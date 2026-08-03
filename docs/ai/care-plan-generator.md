@@ -17,4 +17,4 @@ The endpoint enforces a treatment relationship (the provider must have an appoin
 Use the **Provider** quick-login button (`dr.arta@curehealth.dev`, password `Demo1234!`), open a patient you've seen, and generate a care plan.
 
 ## Under the hood
-`POST /ai/care-plan` · gated on a treatment relationship · grounds on `Patient` (allergies/conditions), `MedicationRequest`, `Appointment` · JSON-mode Claude Sonnet 4.6 via OpenRouter · audited without chart/plan content.
+`POST /ai/care-plan` · gated on a treatment relationship · grounds on `Patient` (allergies/conditions), `MedicationRequest`, `Appointment` · JSON-mode Claude Sonnet 4.5 via OpenRouter · audited without chart/plan content.

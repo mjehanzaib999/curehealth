@@ -17,4 +17,4 @@ The order is scoped to the calling pharmacy's organization (a foreign order retu
 Use the **Pharmacy** quick-login button (`pharma.aria@curehealth.dev`, password `Demo1234!`), open an incoming order, and run the safety check.
 
 ## Under the hood
-`POST /ai/dispense-check` · order scoped to the pharmacy org · grounds on patient allergies + other current `MedicationRequest` records · JSON-mode Claude Sonnet 4.6 via OpenRouter · audited without PHI.
+`POST /ai/dispense-check` · order scoped to the pharmacy org · grounds on patient allergies + other current `MedicationRequest` records · JSON-mode Claude Sonnet 4.5 via OpenRouter · audited without PHI.

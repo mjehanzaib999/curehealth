@@ -17,4 +17,4 @@ The system first computes the signal in code: the organization's median claim am
 Use the **Insurer** quick-login button (`insurer.sigal@curehealth.dev`, password `Demo1234!`) and run the fraud scan on the org's claims.
 
 ## Under the hood
-`POST /ai/fraud-scan` · statistics over the insurer org's `Claim` records (median amount, 90-day frequency, denied-resubmissions), payload capped at 50 · JSON-mode Claude Sonnet 4.6 via OpenRouter · findings filtered to in-org claim IDs · audited.
+`POST /ai/fraud-scan` · statistics over the insurer org's `Claim` records (median amount, 90-day frequency, denied-resubmissions), payload capped at 50 · JSON-mode Claude Sonnet 4.5 via OpenRouter · findings filtered to in-org claim IDs · audited.

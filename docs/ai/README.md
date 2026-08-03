@@ -1,6 +1,6 @@
 # Cure Health — AI use cases
 
-Cure Health is a multi-portal digital health platform, and AI runs through every portal — patient, provider, pharmacy, and insurer. Each feature below is grounded in real records (charts, prescriptions, orders, claims), runs on **Claude Sonnet 4.6 via OpenRouter**, and is built with the same safety posture: strict system prompts, server-side validation that fails toward caution, role-scoped access, and audit logging that never records message or PHI content. Clinical features are demo/education tools and are **not medical advice** — every draft is meant for a qualified human to review.
+Cure Health is a multi-portal digital health platform, and AI runs through every portal — patient, provider, pharmacy, and insurer. Each feature below is grounded in real records (charts, prescriptions, orders, claims), runs on **Claude Sonnet 4.5 via OpenRouter**, and is built with the same safety posture: strict system prompts, server-side validation that fails toward caution, role-scoped access, and audit logging that never records message or PHI content. Clinical features are demo/education tools and are **not medical advice** — every draft is meant for a qualified human to review.
 
 **[▶ Try it live → curehealth.kognio.ai](https://curehealth.kognio.ai)** · use the one-click **persona quick-login** buttons (shared password `Demo1234!`).
 

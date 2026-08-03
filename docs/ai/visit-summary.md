@@ -17,4 +17,4 @@ The patient can only summarize their own completed appointments that actually ha
 Use the **Patient** quick-login button (password `Demo1234!`), open a completed appointment, and generate its summary.
 
 ## Under the hood
-`POST /ai/visit-summary` · requires a `completed` appointment with a note owned by the patient · grounds on the encounter note · Claude Sonnet 4.6 via OpenRouter · audited without message content.
+`POST /ai/visit-summary` · requires a `completed` appointment with a note owned by the patient · grounds on the encounter note · Claude Sonnet 4.5 via OpenRouter · audited without message content.

@@ -17,4 +17,4 @@ The provider must own the appointment. The raw consultation transcript is sent t
 Use the **Provider** quick-login button (`dr.arta@curehealth.dev`, password `Demo1234!`), open an appointment, and paste a short mock consultation transcript into the scribe tool.
 
 ## Under the hood
-`POST /ai/scribe-note` · scoped to the provider's own appointment · Claude Sonnet 4.6 via OpenRouter · audited without transcript content.
+`POST /ai/scribe-note` · scoped to the provider's own appointment · Claude Sonnet 4.5 via OpenRouter · audited without transcript content.

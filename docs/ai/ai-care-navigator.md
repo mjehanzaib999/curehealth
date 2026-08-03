@@ -18,4 +18,4 @@ The endpoint streams a plain-language assessment token-by-token over Server-Sent
 Use the **Patient** quick-login button (password `Demo1234!`), open the **Navigator** screen, and enter e.g. *"chest tightness and shortness of breath climbing stairs for a week."*
 
 ## Under the hood
-`POST /ai/care-navigator` (SSE stream) · grounds on distinct `Practitioner.specialty` values · Claude Sonnet 4.6 via OpenRouter · audited with no message content logged.
+`POST /ai/care-navigator` (SSE stream) · grounds on distinct `Practitioner.specialty` values · Claude Sonnet 4.5 via OpenRouter · audited with no message content logged.

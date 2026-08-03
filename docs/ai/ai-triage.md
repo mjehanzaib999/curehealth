@@ -17,4 +17,4 @@ Each turn sends the conversation history plus the new message to Claude in JSON 
 Use the **Patient** quick-login button (password `Demo1234!`) and open the triage tool. Try *"sore throat and mild fever for two days."*
 
 ## Under the hood
-`POST /ai/triage` · specialties from distinct `Practitioner.specialty` · JSON-mode Claude Sonnet 4.6 via OpenRouter · enum values coerced to safe defaults · audited without message content.
+`POST /ai/triage` · specialties from distinct `Practitioner.specialty` · JSON-mode Claude Sonnet 4.5 via OpenRouter · enum values coerced to safe defaults · audited without message content.

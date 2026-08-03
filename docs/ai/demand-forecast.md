@@ -17,4 +17,4 @@ The heavy lifting is a database aggregate, not the model: the server counts non-
 Use the **Pharmacy** quick-login button (`pharma.aria@curehealth.dev`, password `Demo1234!`) and open the Insights / demand-forecast screen.
 
 ## Under the hood
-`GET /ai/demand-forecast` · aggregates non-rejected `PharmacyOrder` rows (30d) grouped by medication for the pharmacy org · Claude Sonnet 4.6 via OpenRouter narrates the aggregate · audited.
+`GET /ai/demand-forecast` · aggregates non-rejected `PharmacyOrder` rows (30d) grouped by medication for the pharmacy org · Claude Sonnet 4.5 via OpenRouter narrates the aggregate · audited.

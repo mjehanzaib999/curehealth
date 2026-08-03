@@ -17,4 +17,4 @@ The claim is scoped to the calling insurer's organization. The system computes f
 Use the **Insurer** quick-login button (`insurer.sigal@curehealth.dev`, password `Demo1234!`), open a submitted claim, and run the copilot.
 
 ## Under the hood
-`POST /ai/claims-copilot` · claim scoped to the insurer org · checks over `Claim`, `InsurancePolicy`, and the source `Appointment`/`MedicationRequest` · JSON-mode Claude Sonnet 4.6 via OpenRouter · audited.
+`POST /ai/claims-copilot` · claim scoped to the insurer org · checks over `Claim`, `InsurancePolicy`, and the source `Appointment`/`MedicationRequest` · JSON-mode Claude Sonnet 4.5 via OpenRouter · audited.

@@ -17,4 +17,4 @@ The provider must have a treatment relationship with the patient. The server gat
 Use the **Provider** quick-login button (`dr.arta@curehealth.dev`, password `Demo1234!`), open a patient you've seen, and check a proposed medication.
 
 ## Under the hood
-`POST /ai/interaction-check` · gated on a treatment relationship · grounds on patient allergies + current `MedicationRequest` records · JSON-mode Claude Sonnet 4.6 via OpenRouter · severity/risk coerced toward caution · audited without PHI.
+`POST /ai/interaction-check` · gated on a treatment relationship · grounds on patient allergies + current `MedicationRequest` records · JSON-mode Claude Sonnet 4.5 via OpenRouter · severity/risk coerced toward caution · audited without PHI.

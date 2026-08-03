@@ -17,4 +17,4 @@ The order is scoped to the calling pharmacy's organization. The dispensed medica
 Use the **Pharmacy** quick-login button (`pharma.aria@curehealth.dev`, password `Demo1234!`), open an order, and request substitutions.
 
 ## Under the hood
-`POST /ai/substitutions` · order scoped to the pharmacy org · grounds on the dispensed `MedicationRequest` · JSON-mode Claude Sonnet 4.6 via OpenRouter · list capped at 3, prescriber-confirmation note enforced · audited without PHI.
+`POST /ai/substitutions` · order scoped to the pharmacy org · grounds on the dispensed `MedicationRequest` · JSON-mode Claude Sonnet 4.5 via OpenRouter · list capped at 3, prescriber-confirmation note enforced · audited without PHI.
