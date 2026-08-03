@@ -22,13 +22,19 @@ Cure Health connects the whole care loop in one platform, with **six role-scoped
 46 API endpoints and 24 role-scoped screens across patient, provider, pharmacy, insurer, admin, and call experiences.
 
 ## 🤖 AI features — try them live
-Powered by Claude (via OpenRouter). Use the **persona quick-login buttons** on the sign-in page to reach each portal:
+Powered by Claude (via OpenRouter). Use the **persona quick-login buttons** on the sign-in page to reach each portal. Sixteen AI features span all four portals:
 
-- **AI Care Navigator** *(patient)* — describe symptoms and AI triages urgency, flags red-flags, recommends a specialty, and builds a visit-prep checklist — then books for you. Try *"chest tightness and shortness of breath climbing stairs for a week."*
-- **Clinical Care-Plan Generator** *(provider)* — drafts an evidence-informed, editable care plan (problems, goals, interventions, follow-up) from a patient's chart.
-- Plus **AI Triage** & an **AI Assistant** (patient), **scribe / visit-summary** (provider), **demand forecast** (pharmacy), and **fraud scan** (insurer).
+**Patient** — [AI Care Navigator](docs/ai/ai-care-navigator.md) (streaming triage → specialty, red-flags, visit-prep checklist), [AI Triage](docs/ai/ai-triage.md), [AI Booking Assistant](docs/ai/booking-assistant.md) (tool-calling agent that books for you), [Medication Adherence Coach](docs/ai/adherence-coach.md), [Visit Summary](docs/ai/visit-summary.md), and [Claim Helper](docs/ai/claim-helper.md).
 
-> Look for the **✨ AI** tags in the portal nav and the "💡 how to use" note on each AI screen.
+**Provider** — [Clinical Care-Plan Generator](docs/ai/care-plan-generator.md) (editable, chart-grounded plan), [Draft Encounter Note](docs/ai/draft-note.md), [Scribe](docs/ai/scribe.md) (transcript → S/O/A/P), and [Drug-Interaction Check](docs/ai/interaction-check.md).
+
+**Pharmacy** — [Dispense Safety Check](docs/ai/dispense-safety-check.md), [Substitution Suggestions](docs/ai/substitution-suggestions.md), [Patient Medication Label](docs/ai/patient-label.md) (EN/SQ), and [Demand Forecast](docs/ai/demand-forecast.md).
+
+**Insurer** — [Claims Copilot](docs/ai/claims-copilot.md) (deterministic checks + recommendation) and [Fraud Scan](docs/ai/fraud-scan.md).
+
+> Look for the **✨ AI** tags in the portal nav and the "💡 how to use" note on each AI screen. Clinical features are demo/education tools — not medical advice.
+
+**→ Full AI use-case docs: [docs/ai/](docs/ai/)**
 
 ## Tech
 - **Backend:** FastAPI, async SQLAlchemy, Alembic, PostgreSQL, WebSocket signaling
